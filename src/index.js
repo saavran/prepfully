@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ProgressWrapper from './components/progressWrapper/ProgressWrapper';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ProgressWrapper time={50} />
   </React.StrictMode>,
   document.getElementById('root')
 );

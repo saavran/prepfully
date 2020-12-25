@@ -1,0 +1,43 @@
+.progress-circle {
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.progress-circle svg {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transform: rotate(90deg);
+}
+
+.progress-circle svg circle:nth-child(1) {
+    stroke-dashoffset: 0;
+    stroke: #f3f3f3;
+    fill: none;
+    width: 150px;
+    height: 150px;
+    stroke-width: 10px;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 440;
+}
+
+.progress-circle svg circle:nth-child(2) {
+    fill: none;
+    width: 150px;
+    height: 150px;
+    stroke-width: 10px;
+    stroke: #8eb5ff;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 440;
+    stroke-linecap: round;
+}
+
+.progress-circle h2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: #8eb5ff;
+}
