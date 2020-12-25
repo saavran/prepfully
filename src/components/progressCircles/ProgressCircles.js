@@ -20,7 +20,7 @@ export default function ProgressCircles(props) {
 
         return () => clearInterval(intervalId);
 
-    }, [timeLeft, props.inProgress]);
+    }, [timeLeft, props.inProgress, timeDuration]);
 
     return (
         <div className="progress-circle">
